@@ -15,7 +15,7 @@ body{
 main{
     width: 1100px;
     margin: auto;
-   
+   padding-bottom: 70px;
 }
 
 /* nav bar design */
@@ -270,4 +270,26 @@ header .hero div{
 
 }
 
+/* footer section */
+footer{
+    height: 226px;
+    background-color: white;
+}
 
+footer .footer{
+    text-align: center;
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+footer .footer .social{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    width: 964.92px;
+    border-top: 1px solid rgba(14, 14, 14, 0.1);
+    padding-top: 35px;
+}
