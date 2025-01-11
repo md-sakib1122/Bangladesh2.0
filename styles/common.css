@@ -53,6 +53,13 @@
     font-size: 15.48px;
     font-weight: 600;
     border: none;
+    cursor: pointer;
+}
+
+.btn-primary:hover{   
+    background-color:#00529B;
+    transform: scale(1.05);
+    transition:  0.05s linear;
 }
 
 .btn-secondary {
@@ -61,5 +68,12 @@
     padding: 9.46px 17.2px 9.46px 17.2px;
     border: none;
     color: rgb(255, 255, 255);
+    cursor: pointer;
 
+}
+
+.btn-secondary:hover{
+ 
+    transform: scale(1.05);
+    transition:  0.05s linear;
 }

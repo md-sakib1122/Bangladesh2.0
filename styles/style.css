@@ -42,6 +42,13 @@ header nav button {
     font-size: 15.48px;
     font-weight: 600;
 }
+
+header nav button:hover{
+    background-color: rgb(0, 106, 80);
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+}
 header img{
     width: 400px;
 }
@@ -91,9 +98,9 @@ header .hero div{
 .vision .card-container .card{
    border-radius: 6px;
    width: 353.17px;
-   height: 279.5px;
    padding: 27.52px;
    box-sizing: border-box;
+   
 }
 
 .vision .card-container .card1{
@@ -218,7 +225,49 @@ header .hero div{
     border-bottom: 1px solid rgba(14, 14, 14, 0.15);
 }
 
+/* News letter section */
 
 
+
+.newsletter{
+    text-align: center;
+    background-color: rgb(198, 228, 214);
+    height: 339.7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20.64px;
+}
+
+.newsletter input{
+    width: 516px;
+    height: 47.3px;
+    background-color: white;
+    border: none;
+    padding: 15px 35px 15px 35px;
+    outline: none;
+}
+
+.newsletter .input-box button{
+    border-radius: 0px 8px 8px 0px;
+    padding: 14.62px 29.24px 14.62px 29.24px;
+    background: rgb(0, 106, 80);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 15.48px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.newsletter button:hover{
+    background-color:#00529B;
+    transform: scale(1.05);
+    transition:  0.05s linear;
+}
+.newsletter .input-box{
+    display: flex;
+
+}
 
 
