@@ -179,6 +179,8 @@ header .hero div{
     display:flex;
     justify-content: space-between;
     padding: 0 15px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .donate .btn-container .donate-btn{
@@ -199,14 +201,21 @@ header .hero div{
 }
 
 .donate input{
-    width: 887.52px;
+    width: 910px;
     height: 55.04px;
     padding: 10px;
     border-radius: 6px;
     margin-top: 20px;
     text-align: center;
     outline: none;
-    
+
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 17.2px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
 }
 
 
