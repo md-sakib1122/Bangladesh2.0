@@ -59,7 +59,7 @@ header img{
     background-color: var(--primary-bgcolor);
     display: flex;
     justify-content: space-between;
-    padding: 68.8px 86px 68.8px 86px;
+    padding: 68.8px 60px 68.8px 60px;
     border-radius: 15px;
     margin-top: 24px;
 }
