@@ -100,7 +100,11 @@ header .hero div{
    width: 353.17px;
    padding: 27.52px;
    box-sizing: border-box;
-   
+   cursor: pointer;
+}
+
+.vision .card-container .card:hover{
+   background-color:rgb(121, 226, 121);
 }
 
 .vision .card-container .card1{
